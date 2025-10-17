@@ -1,24 +1,31 @@
+import Library.FnList.*;
+
+import java.util.function.ToIntBiFunction;
+
 //
 // HX: 50 points
 //
 abstract public class Quiz01_06 {
-    public static<T>
-	FnList<T> someSort
-	(FnList<T> xs, ToIntBiFunction<T,T> cmp) {
-	// HX-2025-10-15:
-	// This one is abstract, that is, not implemented
+    public static <T>
+    FnList<T> someSort
+            (FnList<T> xs, ToIntBiFunction<T, T> cmp) {
+        // HX-2025-10-15:
+        // This one is abstract, that is, not implemented
+
+        return null;
     }
-    public static
-	<T extends Comparable<T>>
-	FnList<T> someStableSort
-	(FnList<T> xs, ToIntBiFunction<T,T> cmp) {
-	// HX-2025-10-15:
-	// Please implement a stable sorting method based on
-	// someSort, which may not be stable
+
+    public static <T extends Comparable<T>>
+    FnList<T> someStableSort
+            (FnList<T> xs, ToIntBiFunction<T, T> cmp) {
+        // HX-2025-10-15:
+        // Please implement a stable sorting method based on
+        // someSort, which may not be stable
+        return null;
     }
 }
 
-////////////////////////////////////////////////////////////////////////.
+/// /////////////////////////////////////////////////////////////////////.
 //
 // HX-2025-10-15:
 // Please find a way to test someStableSort by
@@ -32,4 +39,4 @@ abstract public class Quiz01_06 {
 // Note that you should be able to call the quickSort method
 // in Library/FnList/FnListSUtil.java; should not do another
 // implementation of quickSort in your testing code.
-////////////////////////////////////////////////////////////////////////.
+/// /////////////////////////////////////////////////////////////////////.

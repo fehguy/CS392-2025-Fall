@@ -12,9 +12,11 @@ public class Quiz01_05 {
 	// Note that you are not allowed to modify the definition
 	// of the LnList class. You can only use the public methods
 	// provided by the LnList class
+        return null;
     }
     public static int main (String[] args) {
 	// HX-2025-10-12:
 	// Please write minimal testing code for LnListQuickSort
+        return -1;
     }
 }
